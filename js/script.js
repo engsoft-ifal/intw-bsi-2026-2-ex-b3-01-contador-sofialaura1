@@ -9,12 +9,12 @@
 
 // escreva seu código aqui
 let valor = 0;
-total.textContent = valor
 
 const somar = document.querySelector("#somar")
 const total = document.querySelector("#total")
 const zerar = document.querySelector("#zerar")
 
+total.textContent = valor
 somar.addEventListener("click", function() {
     valor += 1;
     total.textContent = valor;
